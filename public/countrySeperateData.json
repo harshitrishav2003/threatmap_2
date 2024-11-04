@@ -1,0 +1,45 @@
+{
+    "United States": {
+      "attacks": [
+        {
+          "sourceName": "United States",
+          "destinationName": "Russia",
+          "threatType": "malware",
+          "source": [37.0902, -95.7129],
+          "destination": [61.524, 105.3188]
+        }
+      ],
+      "attackTrend": {
+        "last30Days": [5, 6, 7, 9, 10, 12, 8, 7, 10, 11, 13, 12],
+        "malwareTypeTrends": {
+          "Botnet": 7.4,
+          "Infostealer": 12.2,
+          "Banking": 3.9,
+          "Ransomware": 6.0,
+          "Mobile": 0.1
+        }
+      }
+    },
+    "Russia": {
+      "attacks": [
+        {
+          "sourceName": "Russia",
+          "destinationName": "United States",
+          "threatType": "exploit",
+          "source": [61.524, 105.3188],
+          "destination": [37.0902, -95.7129]
+        }
+      ],
+      "attackTrend": {
+        "last30Days": [3, 4, 5, 7, 8, 6, 5, 9, 10, 11, 14, 15],
+        "malwareTypeTrends": {
+          "Botnet": 8.5,
+          "Infostealer": 13.1,
+          "Banking": 4.2,
+          "Ransomware": 5.8,
+          "Mobile": 0.3
+        }
+      }
+    }
+  }
+  
